@@ -25,4 +25,5 @@ const puppeteer = require('puppeteer');
     path: 'screen.pdf',
     format: 'A4',
   });
+  console.log('pdf ok');
 })().catch(err => console.log(err.message));
